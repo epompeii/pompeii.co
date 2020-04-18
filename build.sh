@@ -1,5 +1,9 @@
 #! /bin/bash
 
+git add .
+git commit -m "$1"
+git push origin master
+
 export MESSAGE=$1
 rm -rf ../tmp/book/
 mdbook build
