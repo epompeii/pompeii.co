@@ -1,5 +1,6 @@
 #! /bin/bash
 
+export MESSAGE=$1
 rm -rf ../tmp/book/
 mdbook build
 mkdir ../tmp/book/
